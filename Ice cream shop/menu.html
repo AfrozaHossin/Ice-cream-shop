@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froste - Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="menu.js"></script>
+</head>
+
+<body>
+    <!-- header part -->
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="index.html" class="logo"> Froste </a>
+
+            <!-- desktop menu -->
+            <ul class="navlist flex gap-3">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html" class="active">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-value">0</span>
+                </a>
+
+                <a href="#" class="btn">
+                    Sign in
+                    &nbsp;
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+
+                <a href="#" class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- mobile menu -->
+            <ul class="mobile-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html" class="active">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#" class="btn">
+                        Sign in
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu Section -->
+    <main>
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h1>Our Menu</h1>
+                    <p class="para">Explore our delicious selection of ice creams and desserts</p>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="category-filter">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="cone">Cones</button>
+                    <button class="category-btn" data-category="bar">Bars</button>
+                    <button class="category-btn" data-category="sundae">Sundaes</button>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="card-list text-center flex mt-4 gap-2" id="menu-products">
+                    <!-- Products will be loaded by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Tab -->
+        <div class="cart-tab">
+            <h3> Your Cart</h3>
+
+            <div class="cart-list">
+                <!-- Cart items will be added here -->
+            </div>
+
+            <div class="total-container">
+                <h4>Total:</h4>
+                <h4 class="cart-total"> $0.00</h4>
+            </div>
+
+            <div class="btn-container flex gap-2">
+                <a href="#" class="btn close-btn">Close</a>
+                <a href="#" class="btn">Check out</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper text-center p-top">
+            <p>&copy; 2024 Froste. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

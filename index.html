@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froste - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- header part -->
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="index.html" class="logo"> Froste </a>
+
+            <!-- desktop menu -->
+            <ul class="navlist flex gap-3">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-value">0</span>
+                </a>
+
+                <a href="#" class="btn">
+                    Sign in
+                    &nbsp;
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+
+                <a href="#" class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- mobile menu -->
+            <ul class="mobile-menu">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#" class="btn">
+                        Sign in
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- section part -->
+    <main>
+        <section>
+            <div class="hero-section flex wrapper gap-4">
+                <div class="content">
+                    <h1>
+                        TASTE THE CHILL, LOVE THE
+                        <span>FLAVOUR</span>
+                    </h1>
+                    <p class="para">
+                        WE SERVE THE CREAMIEST ICE-CREAM IN TOWN WITH NATURAL FLAVOURS.
+                        WHETHER YOU LOVE CHOCOLATE, VANILLA, FRUIT FLAVOURS, OR SOMETHING NEW —
+                        WE HAVE SOMETHING FOR EVERYONE!
+                    </p>
+                    <div class="flex gap-2">
+                        <a href="menu.html" class="btn">Order now</a>
+
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="image/ice_cream.png" alt="Ice Cream">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Our services</h5>
+                    <h2>How does it work</h2>
+                </div>
+
+                <div class="flex text-center mt-4 gap-4">
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="image/easy-to-order.png" alt="Easy to Order">
+                        </div>
+                        <h3>Easy to Order</h3>
+                        <p>You only need a few steps for ordering food</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="image/fast-delivery.png" alt="Fast Delivery">
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>Delivery that is always on time, even faster</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="image/best-quality.png" alt="Best Quality">
+                        </div>
+                        <h3>Best Quality</h3>
+                        <p>Enjoy best quality ice cream</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Featured Items</h5>
+                    <h2>Popular Picks</h2>
+                </div>
+
+                <div class="card-list text-center flex mt-4 gap-2" id="featured-products">                   
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+        </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wrapper">
+            <!-- Main Footer Content -->
+            <div class="footer-main flex between align-center">
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Froste</h3>
+                    <p class="footer-desc">
+                        Serving the creamiest ice-cream with natural flavours.
+                    </p>
+                </div>
+                
+                
+                <div class="footer-nav">
+                    <ul class="flex gap-3">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+          
+            <div class="footer-bottom flex between align-center mt-3">
+                <p class="copyright">&copy; 2024 Froste. All rights reserved.</p>
+                <div class="social-links flex gap-2">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+</body>
+
+</html>

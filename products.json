@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Chocolate Bar",
+        "price": "$20",
+        "image": "image/bar1.png",
+        "category": "bar"
+    },
+    {
+        "id": 2,
+        "name": "Dark Chocolate Bar",
+        "price": "$22",
+        "image": "image/bar2.png",
+        "category": "bar"
+    },
+    {
+        "id": 3,
+        "name": "White Chocolate Bar",
+        "price": "$25",
+        "image": "image/bar3.png",
+        "category": "bar"
+    },
+    {
+        "id": 4,
+        "name": "Vanilla Cone",
+        "price": "$18",
+        "image": "image/cone1.png",
+        "category": "cone"
+    },
+    {
+        "id": 5,
+        "name": "Chocolate Cone",
+        "price": "$20",
+        "image": "image/cone2.png",
+        "category": "cone"
+    },
+    {
+        "id": 6,
+        "name": "Strawberry Cone",
+        "price": "$19",
+        "image": "image/cone3.png",
+        "category": "cone"
+    },
+    {
+        "id": 7,
+        "name": "Mixed Chocolate Bar",
+        "price": "$23",
+        "image": "image/bar1.png",
+        "category": "bar"
+    },
+    {
+        "id": 8,
+        "name": "Chocolate Sundae",
+        "price": "$25",
+        "image": "image/sundae1.png",
+        "category": "sundae"
+    },
+    {
+        "id": 9,
+        "name": "Fruit Sundae",
+        "price": "$28",
+        "image": "image/sundae2.png",
+        "category": "sundae"
+    },
+    {
+        "id": 10,
+        "name": "Classic Ice Cream",
+        "price": "$15",
+        "image": "image/ice_cream.png",
+        "category": "ice-cream"
+    },
+    {
+        "id": 11,
+        "name": "Mint Chocolate Chip",
+        "price": "$21",
+        "image": "image/bar1.png",
+        "category": "ice-cream"
+    },
+    {
+        "id": 12,
+        "name": "Cookies & Cream",
+        "price": "$24",
+        "image": "image/bar2.png",
+        "category": "ice-cream"
+    }
+]
